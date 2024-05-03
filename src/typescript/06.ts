@@ -8,8 +8,7 @@ interface Employee {
   salary: number;
 }
 
-// ここに UpdatedEmployee 型を作成してください。
-
+// 解答
 type UpdatedEmployee = {
   [K in keyof Employee]: Employee[K] extends "salary" ? string : Employee[K];
 };

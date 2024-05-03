@@ -8,7 +8,7 @@ interface Menu {
   soda: boolean;
 }
 
-// ここに PrefixedMenu 型を作成してください。
+// 解答
 type PrefixedMenu = {
   [K in keyof Menu as `item_${K}`]: Menu[K];
 };
