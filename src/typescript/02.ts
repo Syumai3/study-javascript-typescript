@@ -1,5 +1,6 @@
 // Optional Mapped Type
-// 以下の Product 型が定義されています。この型のすべてのプロパティをオプショナルにする新しい型 OptionalProduct を作成してください。
+// 以下の Product 型が定義されています。
+// この型のすべてのプロパティをオプショナルにする新しい型 OptionalProduct を作成してください。
 
 interface Product {
   productId: number;
